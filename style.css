@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 40px;
+}
+
+.logo {
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #00adb5;
+}
+
+.home{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #00adb5;
+    color: #fff;
+    text-align: center;
+}
+
+.home span{
+    color: #222;
+
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section{
+    padding: 60px 40px;
+    text-align: center;
+
+}
+
+.about,
+.skills,
+.projects,
+.job simulations,
+.contact {
+    background: #f4f4f4;
+    margin-top: 20px;
+}
+
+.skills ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.skills li{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.project-card{
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 
+rgba(0,0,0,0.1);
+}
+
+.job simulations{
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 
+rgba(0,0,0,0.1);
+}
+
+footer{
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 
+}
